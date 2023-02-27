@@ -1,20 +1,37 @@
 import React from "react";
 
-function Project({name, techStack, ghLink, imgLink}) {
+// Component for each project.
+
+function Project({name, techStack, ghLink, appLink,imgLink}) {
   return (
-    <li className="">
-        <a
-          href={ghLink}
-          target="_blank"
-          rel="noreferrer"
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={'projectContainer'}
-        > 
-          <img src={imgLink} alt='Centiment'></img>
-          {name}
-          {techStack}
-        </a>
+    <li className="project">
+          <a
+            href={appLink}
+            target="_blank"
+            rel="noreferrer"
+            className={'projectInner'}
+          > 
+            <img 
+              src={imgLink} 
+              alt='Centiment'
+              className='projectImg'>
+            </img>
+          
+          </a>
+              
+          <div className='projectText'>
+            {name}
+            <br></br>
+            {techStack}
+            <br></br>
+            <a
+              href={ghLink}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github Repo
+            </a>
+        </div>
     </li>
   );
 }
