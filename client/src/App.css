@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+li {
+  list-style-type: none;
+}
+
+
 .nav {
   background-color: #2e2e2e;
 }
@@ -19,7 +31,7 @@
   background-color: #181818;
 }
 
-a.projectContainer:hover, a.projectContainer:visited, a.projectContainer:active, a.projectContainer:link{
+a.projectInner:hover, a.projectInner:visited, a.projectInner:active, a.projectInner:link{
   color:white;
   text-decoration: none;
 }
@@ -28,9 +40,49 @@ a.nav-link:hover {
   color:rgb(98, 218, 255);
 }
 
-
+a.nav-link:visited {
+  color:white;
+}
 
 a, a:visited, a:hover, a:active {
   color: inherit;
 }
+
+.projectContainer {
+  display:flex;
+  width:80%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px;
+  margin: 0px;
+}
+
+.project {
+  flex: 0 0 auto;
+  width: 47%;
+  margin: 5px;
+  border-style:initial;
+  border-radius:1px;
+  border-color:aquamarine
+}
+
+.projectImg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+.imgContainer {
+  height:200px;
+  width:200px;
+  border-radius:50%;
+}
+
+.profilePic {
+  object-fit: cover;
+  aspect-ratio: 4/3;
+  height:100%;
+  width:100%;
+}
+
 
