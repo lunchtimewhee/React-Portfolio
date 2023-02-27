@@ -23,18 +23,18 @@ Go to https://lunchtimewhee.github.io/React-Portfolio/#home
 
 ## Usage Information
 1. Home page + Portfolio:
-![step1](./images/step1.JPG)
+![](./client/src/images/step1.JPG)
 
 2. About me:
-![step1](./images/step2.JPG)
+![](./client/src/images/step2.JPG)
 
 
 3. Resume: 
-![step1](./images/step3.JPG)
+![](./client/src/images/step3.JPG)
 
 
 4. Contact Me:
-![step1](./images/step4.JPG)
+![](./client/src/images/step4.JPG)
 
 
 ## License
