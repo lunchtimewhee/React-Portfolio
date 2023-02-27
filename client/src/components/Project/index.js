@@ -1,6 +1,5 @@
 import React from "react";
 
-// Component for each project.
 
 function Project({name, techStack, ghLink, appLink,imgLink}) {
   return (

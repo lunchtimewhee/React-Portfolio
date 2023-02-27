@@ -37,7 +37,7 @@ a.projectInner:hover, a.projectInner:visited, a.projectInner:active, a.projectIn
 }
 
 a.nav-link:hover {
-  color:rgb(98, 218, 255);
+  color:rgb(98, 218, 255) !important;
 }
 
 a.nav-link:visited {
@@ -99,4 +99,43 @@ a, a:visited, a:hover, a:active {
 
 .emailInput {
   background-color: #2e2e2e;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerChild {
+  margin: 10px;
+}
+
+.footerItem {
+  margin: 10px;
+  background-color:transparent;
+}
+
+a.footerItem:hover, a.footerItem:link {
+  color:white;
+  text-decoration: none;
+}
+
+html, body {
+  height:100%;
+}
+
+.page-container {
+  min-height: 100vh;
+  position:relative;
+}
+
+#root {
+  height: 100%;
+}
+
+.contentWrap {
+  padding-bottom: 60px;
 }
