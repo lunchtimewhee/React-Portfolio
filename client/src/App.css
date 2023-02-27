@@ -85,4 +85,18 @@ a, a:visited, a:hover, a:active {
   width:100%;
 }
 
+.formContainer {
+  margin: 10px;
+}
 
+.textBox {
+  background-color:#2e2e2e
+}
+
+.nameInput {
+  background-color: #2e2e2e;
+}
+
+.emailInput {
+  background-color: #2e2e2e;
+}
