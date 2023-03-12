@@ -6,6 +6,7 @@ import jatePic from '../images/jate.JPG';
 import taylorsKitchenPic from '../images/taylors-kitchen.jpg';
 import schedulerPic from '../images/workday-scheduler.jpg';
 import ecommercePic from '../images/ecommerce.JPG';
+import leadstackPic from '../images/leadStack.JPG';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       </p>
       
       <ul className='projectContainer'>
-        <Project name={'LeadStack'} techStack={'React, GraphQL, JS, CSS, HTML'} ghLink={'https://github.com/isayahdurst/leadstack'} appLink={'https://lead-stack.herokuapp.com/'} imgLink={leadStack}/>
+        <Project name={'LeadStack'} techStack={'React, GraphQL, JS, CSS, HTML'} ghLink={'https://github.com/isayahdurst/leadstack'} appLink={'https://lead-stack.herokuapp.com/'} imgLink={leadstackPic}/>
         
         <Project name={'Centiment'} techStack={'Handlebars, MySQL, JS, CSS, HTML'} ghLink={'https://github.com/isayahdurst/centiment'} appLink={'https://centiment-inc.herokuapp.com/login'} imgLink={centimentPic}/>
 
