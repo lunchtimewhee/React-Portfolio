@@ -16,7 +16,9 @@ export default function Home() {
       </p>
       
       <ul className='projectContainer'>
-        <Project name={'Centiment'} techStack={'Handlebars, JS, CSS, HTML'} ghLink={'https://github.com/isayahdurst/centiment'} appLink={'https://centiment-inc.herokuapp.com/login'} imgLink={centimentPic}/>
+        <Project name={'LeadStack'} techStack={'React, GraphQL, JS, CSS, HTML'} ghLink={'https://github.com/isayahdurst/leadstack'} appLink={'https://lead-stack.herokuapp.com/'} imgLink={leadStack}/>
+        
+        <Project name={'Centiment'} techStack={'Handlebars, MySQL, JS, CSS, HTML'} ghLink={'https://github.com/isayahdurst/centiment'} appLink={'https://centiment-inc.herokuapp.com/login'} imgLink={centimentPic}/>
 
         <Project name={`Taylor's Kitchen`} techStack={'JS, CSS, HTML'} ghLink={'https://github.com/isayahdurst/taylors-kitchen-meal-prep-app'} appLink={'https://isayahdurst.github.io/taylors-kitchen-meal-prep-app/'} imgLink={taylorsKitchenPic}/>
 
@@ -25,8 +27,6 @@ export default function Home() {
         <Project name={`Password Generator`} techStack={'JS, CSS, HTML'} ghLink={'https://github.com/lunchtimewhee/Password_Generator'} appLink={'https://lunchtimewhee.github.io/Password_Generator/'} imgLink={passwordGenPic}/>
 
         <Project name={`Workday Scheduler`} techStack={'JS, CSS, HTML'} ghLink={'https://github.com/lunchtimewhee/work_day_scheduler'} appLink={'https://lunchtimewhee.github.io/work_day_scheduler/'} imgLink={schedulerPic}/>
-
-        <Project name={`E-Commerce Backend`} techStack={'JS'} ghLink={'https://github.com/lunchtimewhee/ecommerce-backend'} appLink={'https://github.com/lunchtimewhee/ecommerce-backend'} imgLink={ecommercePic}/>
       </ul>
       
 
